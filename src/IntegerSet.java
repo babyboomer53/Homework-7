@@ -179,7 +179,7 @@ public class IntegerSet {
         for (int index = 1; index <= 20; index++) {
             randomNumber = 1 + randomNumberGenerator.nextInt(100);
             if (setB.contains(randomNumber) && setB.deleteElement(randomNumber)) {
-                System.out.printf("Deleted %d from setB. . .%n", randomNumber);
+                System.out.printf("Deleted %d from setB . . .%n", randomNumber);
             }
         }
 
